@@ -10,7 +10,7 @@
     <!--end::Fonts -->
 
     {{-- begin::css --}}
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css" >
+    <link href="{{ mix('css/app.css') }}" rel="stylesheet" type="text/css" >
     {{-- end::css --}}
 
     {{-- begin::icons --}}

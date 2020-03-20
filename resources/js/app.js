@@ -1,4 +1,4 @@
-import '../demo1/tools/webpack/vendors/global';
-import '../demo1/tools/webpack/scripts';
+import '../demo12/tools/webpack/vendors/global';
+import '../demo12/tools/webpack/scripts';
 
 require('./bootstrap');

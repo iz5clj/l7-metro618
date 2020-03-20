@@ -1,9 +1,8 @@
-// base style
-@import "../demo1/src/assets/sass/style";
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 
-// skins for demo1 only
-@import "../demo1/src/assets/sass/global/layout/aside/skins/dark";
-@import "../demo1/src/assets/sass/global/layout/brand/skins/dark";
-@import "../demo1/src/assets/sass/global/layout/header/skins/base/light";
-@import "../demo1/src/assets/sass/global/layout/header/skins/menu/light";
+// Variables
+@import 'variables';
 
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
