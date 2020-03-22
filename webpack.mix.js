@@ -16,11 +16,14 @@ mix.sass('resources/sass/app.scss', 'public/css').version();
 
 mix.browserSync({
     proxy: 'icv.test',
-    open: false
+    open: false,
+    socket: {
+        domain: "icv.test:3000"
+    }
 });
 
 // copy images folder into laravel public folder
-mix.copyDirectory('resources/demo1/src/assets/media', 'public/assets/media');
+mix.copyDirectory('resources/demo12/src/assets/media', 'public/assets/media');
 
 /**
  * plugins specific issue workaround for webpack
