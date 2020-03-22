@@ -5,8 +5,17 @@
 ## Changes made to original installation
 
 in the file app\Providers\RouteServiceProvider.php
+```
 before: public const HOME = '/home';
+```
+```
 after: public const HOME = '/admin';
+```
+
 in the file: routes\web.php
+```
 before: Route::get('/home', 'HomeController@index')->name('home');
+```
+```
 afrer Route::get('/admin', 'HomeController@index')->name('admin');
+```
