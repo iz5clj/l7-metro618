@@ -1,8 +1,6 @@
-<p align="center"><img src="https://res.cloudinary.com/auxe/image/upload/v1584726683/1865_Logo_noFX__lp7fu4.png" width="100"></p>
+<p align="center"><img src="https://res.cloudinary.com/auxe/image/upload/v1584899634/auxeBlack220x51_gqqucy.png"></p>
 
-## About 1865 in Florence
-
-## Changes made to original installation
+### Changes made to original installation
 
 in the file app\Providers\RouteServiceProvider.php
 ```
