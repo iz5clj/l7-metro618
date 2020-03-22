@@ -2,14 +2,10 @@
 
 ### Changes made to original installation
 
-1. In the file `app\Providers\RouteServiceProvider.php`
-
-Before: ` public const HOME = '/home';`
-
+1. In the file `app\Providers\RouteServiceProvider.php`  
+Before: ` public const HOME = '/home';`  
 Afer: `public const HOME = '/admin';`
-
-2. In the file: `routes\web.php`
-
-Before: `Route::get('/home', 'HomeController@index')->name('home');`
-
+2. In the file: `routes\web.php`  
+Before: `Route::get('/home', 'HomeController@index')->name('home');`  
 After: `Route::get('/admin', 'HomeController@index')->name('admin');`
+
